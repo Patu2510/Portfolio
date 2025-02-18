@@ -609,15 +609,17 @@ img{
     }
 }
     
-@media screen and (max-width: 650px){
-    .Tcontainer{
-        grid-template-columns: 1fr;
+@media screen and (max-width: 650px) {
+    .icon-container {
+        grid-template-columns: repeat(2, 1fr); /* Mobile view me bhi 2 icons ek row me */
     }
-}.icon-container {
-    display: flex;  /* Aligns items in a row */
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Aligns icons in the middle */
-    gap: 15px; /* Adds space between icons */
+}
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 icons ek row me */
+    gap: 15px; /* Icons ke beech spacing */
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
