@@ -615,11 +615,10 @@ img{
     }
 }
 .icon-container {
-    display: grid;
-    grid-template-columns: repeat( 1fr); /* 2 icons ek row me */
+    display: flex;
     gap: 15px; /* Icons ke beech spacing */
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center alignment */
+    align-items: center; /* Vertical center */
 }
 
 .icon {
