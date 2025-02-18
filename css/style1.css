@@ -616,7 +616,7 @@ img{
 }
 .icon-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 icons ek row me */
+    grid-template-columns: repeat( 1fr); /* 2 icons ek row me */
     gap: 15px; /* Icons ke beech spacing */
     justify-content: center;
     align-items: center;
