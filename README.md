@@ -16,7 +16,7 @@ This is my personal portfolio website, built to showcase my skills, projects, an
 - **Hosting**: GitHub Pages   
 
 ## 🔗 Connect with Me  
-- [LinkedIn](https://www.linkedin.com/in/your-profile)  
+- [LinkedIn](https://linkedin.com/in/prathmesh-tech)  
 - [GitHub](https://github.com/patu2510)  
 
 ⭐ **If you like this project, give it a star!** ⭐  
