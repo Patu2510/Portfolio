@@ -718,9 +718,9 @@ section {
     }
 }
 
-/* Complete responsive alignment from 990px */
-
+/* responsive alignment from 990px */
 @media (max-width: 990px) {
+    .navbar{display: none !important;}
     header {
         padding: 18px 4%;
     }
@@ -729,7 +729,6 @@ section {
         padding: 120px 4% 70px;
     }
     
-    /* About Section - Already done */
     .about {
         grid-template-columns: 1fr;
         gap: 3rem;
@@ -766,7 +765,6 @@ section {
         gap: 1.5rem;
     }
     
-    /* Technology/Skills Section */
     .inner {
         padding: 40px 4%;
         margin: 20px 4%;
@@ -798,7 +796,6 @@ section {
         margin-top: 8px;
     }
     
-    /* Experience Section */
     .experience-content {
         flex-direction: column;
         gap: 25px;
@@ -835,7 +832,6 @@ section {
         line-height: 1.6;
     }
     
-    /* Skills Section */
     .skills-content {
         grid-template-columns: 1fr;
         gap: 25px;
@@ -863,7 +859,6 @@ section {
         line-height: 1.6;
     }
     
-    /* Portfolio Section */
     .portfolio-content {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
@@ -889,13 +884,11 @@ section {
         padding: 15px 20px;
     }
     
-    /* Achievement Section */
     .achievement .portfolio-content {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
     
-    /* Contact Section */
     .contact {
         grid-template-columns: 1fr;
         gap: 2.5rem;
@@ -986,7 +979,6 @@ section {
         font-size: calc(var(--h2-font) - 0.3rem);
     }
     
-    /* Scroll to top button */
     .top {
         bottom: 1.8rem;
         right: 1.8rem;
@@ -998,8 +990,8 @@ section {
     }
 }
 
-/* Additional refinements for 768px */
 @media (max-width: 768px) {
+    .navbar{display: none !important;}
     .Tcontainer {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -1053,8 +1045,8 @@ section {
     }
 }
 
-/* Final refinements for 576px */
 @media (max-width: 576px) {
+    .navbar{display: none !important;}
     .contact {
         padding: 25px 15px;
         margin: 10px 1%;
